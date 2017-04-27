@@ -6,6 +6,7 @@ class cloud_code {
     region        => 'us-west-2',
     image_id      => 'ami-09f47d69',
     instance_type => 't2.small',
+    subnet        => 'subnet-fdbb3198',
     tags          => {
       created_by => 'david.alexander',
       department => 'tse',
@@ -18,7 +19,7 @@ class cloud_code {
     image          => 'Windows Server 2012 R2 Datacenter',
     user           => 'puppet_user',
     password       => 'Password123!',
-    size           => 'DS1_V2',
+    size           => 'Standard_DS1_V2',
     resource_group => 'davidalexander',
   }
 }
