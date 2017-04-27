@@ -7,7 +7,7 @@ class cloud_code {
     image_id        => 'ami-09f47d69',
     instance_type   => 't2.small',
     subnet          => 'subnet-fdbb3198',
-    security_groups => ['launch-wizard-3'],
+    security_groups => ['sg-11cd4d6a'],
     tags            => {
       created_by => 'david.alexander',
       department => 'tse',
