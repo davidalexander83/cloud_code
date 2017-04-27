@@ -14,7 +14,7 @@ class cloud_code {
       project    => 'cloud-webinar-apj',
     }
   }
-  azure_vm { 'myazurevm':
+  azure_vm { 'myazurevm_ab454bd':
     ensure                      => present,
     location                    => 'australiasoutheast',
     image                       => 'Windows Server 2012 R2 Datacenter',
